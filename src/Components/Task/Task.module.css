@@ -1,0 +1,30 @@
+.list_container {
+    display: flex;
+    align-items: center;
+    column-gap: 8px;
+    background-color: var(--color-white);
+    margin: 0 4px;
+    width: calc(100% - 8px);
+    border-radius: 8px;
+    padding: 8px;
+    margin-bottom: 15px;
+  }
+  
+  .list_item {
+    display: block;
+    text-decoration: none;
+    overflow-wrap: break-word;
+    color: inherit;
+    font-size: 18px;
+    flex-grow: 1;
+  }
+  
+  .list_icon {
+    color: inherit;
+    cursor: pointer;
+    transition: var(--transition-basic);
+  }
+  
+  .list_icon:hover {
+    color: tomato;
+  }

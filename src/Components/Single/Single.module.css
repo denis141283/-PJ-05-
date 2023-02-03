@@ -1,0 +1,119 @@
+.details_container {
+    /* display: none; */
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 15px;
+    z-index: 2;
+  }
+  
+  .details {
+    position: relative;
+    padding: 30px;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    background-color: var(--color-white);
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.4);
+  }
+  
+  .icon {
+    position: absolute;
+    top: 2px;
+    right: 4px;
+    font-size: 26px;
+    cursor: pointer;
+  }
+  
+  .icon a {
+    color: inherit;
+    transition: var(--transition-basic);
+  }
+  
+  .icon a:hover {
+    color: tomato;
+  }
+  
+  .form_container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+  }
+  
+  .details_title {
+    font-size: 24px;
+    padding: 6px;
+    font-weight: 400;
+    border: 1px solid transparent;
+    font-family: var(--font-basic);
+  }
+  
+  .details_input {
+    border: 1px solid #ccc;
+    outline: none;
+    font-size: 24px;
+    padding: 6px;
+    font-weight: 400;
+    font-family: var(--font-basic);
+    transition: var(--transition-basic);
+  }
+  
+  .details_input:focus {
+    border: 1px solid var(--color-blue-normal);
+  }
+  
+  .details_text {
+    font-size: 16px;
+    padding: 6px;
+    flex-grow: 1;
+    border: 1px solid transparent;
+  }
+  
+  .details_textarea {
+    border: 1px solid #ccc;
+    outline: none;
+    border-radius: 6px;
+    font-size: 16px;
+    font-family: var(--font-basic);
+    padding: 6px;
+    flex-grow: 1;
+    transition: var(--transition-basic);
+  }
+  
+  .details_textarea:focus {
+    border: 1px solid var(--color-blue-normal);
+  }
+  
+  .button_container {
+    text-align: right;
+  }
+  
+  .form_button,
+  .form_button_green {
+    min-width: 110px;
+    padding: 6px 12px;
+    text-align: center;
+    border-radius: 4px;
+    font-size: 18px;
+    border: none;
+    background-color: var(--color-blue-normal);
+    color: var(--color-white);
+    cursor: pointer;
+    transition: var(--transition-basic);
+  }
+  
+  .form_button:hover {
+    background-color: #098bd7;
+    color: var(--color-white);
+  }
+  
+  .form_button_green {
+    background-color: green;
+  }
+  
+  .form_button_green:hover {
+    background-color: rgb(0, 152, 0);
+  }

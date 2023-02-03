@@ -1,0 +1,14 @@
+.main {
+    position: relative;
+    min-height: calc(100vh - 112px);
+  }
+  
+  .wrapper {
+    margin: 60px auto;
+    max-width: 1200px;
+    padding: 30px 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
